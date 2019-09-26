@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [new tour application]">
+  <test thread-count="5" name="on ie(failed)">
+    <parameter name="Browser" value="edge"/>
+    <classes>
+      <class name="com.GRID.NewTourLogin">
+        <methods>
+          <include name="Login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.GRID.NewTourLogin -->
+    </classes>
+  </test> <!-- on ie(failed) -->
+  <test thread-count="5" name="on firefox(failed)">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="com.GRID.NewTourLogin">
+        <methods>
+          <include name="Login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.GRID.NewTourLogin -->
+    </classes>
+  </test> <!-- on firefox(failed) -->
+</suite> <!-- Failed suite [new tour application] -->
