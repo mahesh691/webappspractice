@@ -29,22 +29,22 @@ public class NewTourLogin {
 	@Test
 	public void Login(String browser) throws IOException, InterruptedException {
 		System.out.println("the browser name is :"+browser);
-		
+		String huburl="http://192.168.1.11:4444/wd/hub";
+
 		DesiredCapabilities caps = null;
-		
 		if(browser.equalsIgnoreCase("edge")) {
-			caps=DesiredCapabilities.internetExplorer();
+			caps=new DesiredCapabilities();
 			caps.setBrowserName("edge");
 			caps.setPlatform(Platform.WINDOWS);
-			
+
 		}else 
 			if(browser.equalsIgnoreCase("firefox")) {
-				caps=DesiredCapabilities.firefox();
+				caps=new DesiredCapabilities();
 				caps.setBrowserName("firefox");
 				caps.setPlatform(Platform.WINDOWS);
 			}
 		
-		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://192.168.0.109:4444/wd/hub"),caps);
+		RemoteWebDriver driver = new RemoteWebDriver(new URL(huburl),caps);
 		String url="http://newtours.demoaut.com/";
 		driver.get(url);
 		
@@ -115,6 +115,8 @@ public class NewTourLogin {
 					
 				} driver.quit();
 		}
+
+	
 	
 	}
 	

@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="new tour application">
-<test name="on ie">
+<test name="on edge">
 	<parameter name = "Browser" value="edge"/>
 	<classes>
 		<class name="com.GRID.NewTourLogin"/>

@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.DatabaseTest.OrangeHRMLoginByDB">
+      <class name="com.GRID.NewTourLogin">
         <methods>
-          <include name="loginvalidationtestbydatabase"/>
-          <include name="setup"/>
-          <include name="teardown"/>
+          <include name="Login"/>
         </methods>
-      </class> <!-- com.DatabaseTest.OrangeHRMLoginByDB -->
+      </class> <!-- com.GRID.NewTourLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

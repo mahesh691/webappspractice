@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [new tour application]">
+  <test thread-count="5" name="on edge(failed)">
+    <parameter name="Browser" value="edge"/>
     <classes>
-      <class name="com.DatabaseTest.OrangeHRMLoginByDB">
+      <class name="com.GRID.NewTourLogin">
         <methods>
-          <include name="loginvalidationtestbydatabase"/>
-          <include name="setup"/>
-          <include name="teardown"/>
+          <include name="Login" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.DatabaseTest.OrangeHRMLoginByDB -->
+      </class> <!-- com.GRID.NewTourLogin -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- on edge(failed) -->
+</suite> <!-- Failed suite [new tour application] -->
