@@ -30,15 +30,18 @@ public class LoginNewTour {
 			
 		String keyword=r.getCell(3).getStringCellValue();
 		if(keyword.equals("launchBrowser")) {
+			
 			keys.launchBrowser();
 			
 		}else 
 			if(keyword.equals("navigate")) {
 			keys.navigate();
+			
 		}else 
 			if(keyword.equals("enterusername")) {
 			keys.enterusername();
-		}else 
+		}else
+			
 			if(keyword.equals("enterpassword")) {
 			keys.enterpassword();
 		}else 

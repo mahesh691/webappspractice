@@ -8,78 +8,11 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">new tour application</th></tr>
-<tr><td><a href="#t0">on edge</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">945</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">on firefox</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">38,583</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">1</th><th class="num">0</th><th class="num attn">1</th><th class="num">39,528</th><th colspan="2"></th></tr>
+<tr><th colspan="7">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">41</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">new tour application</th></tr></tbody><tbody id="t0"><tr><th colspan="4">on edge &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.GRID.NewTourLogin</td><td><a href="#m0">Login</a></td><td rowspan="1">1569581634339</td><td rowspan="1">908</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">on firefox &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.GRID.NewTourLogin</td><td><a href="#m1">Login</a></td><td rowspan="1">1569581635336</td><td rowspan="1">38581</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.PracticeSelenium.HtmlReport</td><td><a href="#m0">test1</a></td><td rowspan="1">1572253326271</td><td rowspan="1">21</td></tr></tbody>
 </table>
-<h2>on edge</h2><h3 id="m0">com.GRID.NewTourLogin#Login</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>edge</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: Error forwarding the new session cannot find : Capabilities {browserName: edge, platform: WINDOWS}
-Command duration or timeout: 262 milliseconds
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
-System info: host: &apos;DESKTOP-H3C7SM4&apos;, ip: &apos;192.168.1.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
-	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
-	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-	at com.GRID.NewTourLogin.Login(NewTourLogin.java:47)
-Caused by: org.openqa.grid.common.exception.GridException: Error forwarding the new session cannot find : Capabilities {browserName: edge, platform: WINDOWS}
-	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:118)
-	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
-	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
-	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
-	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
-	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
-	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
-	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
-	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
-	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
-	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
-	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
-	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
-	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
-	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
-	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
-	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
-	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
-	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>on firefox</h2><h3 id="m1">com.GRID.NewTourLogin#Login</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>firefox</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">com.PracticeSelenium.HtmlReport#test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -36,5 +36,20 @@
 	<classpathentry kind="lib" path="E:/JavaProgrammes/WebApplication/Library/poi-apache/poi-scratchpad-4.1.0.jar"/>
 	<classpathentry kind="lib" path="E:/JavaProgrammes/WebApplication/Library/poi-apache/xmlbeans-3.1.0.jar"/>
 	<classpathentry kind="lib" path="E:/JavaProgrammes/WebApplication/Library/com.mysql.jdbc_5.1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/git/repository/myrepository/WebApplication/Library/mysql-connector-java-5.1.18-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/git/repository/myrepository/WebApplication/Library/reports/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/git/repository/myrepository/WebApplication/Library/reports/bson-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/git/repository/myrepository/WebApplication/Library/reports/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/git/repository/myrepository/WebApplication/Library/reports/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/git/repository/myrepository/WebApplication/Library/reports/extentreports-3.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/git/repository/myrepository/WebApplication/Library/reports/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/git/repository/myrepository/WebApplication/Library/reports/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/git/repository/myrepository/WebApplication/Library/reports/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/git/repository/myrepository/WebApplication/Library/reports/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/git/repository/myrepository/WebApplication/Library/reports/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/git/repository/myrepository/WebApplication/Library/reports/jsoup-1.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/git/repository/myrepository/WebApplication/Library/reports/mongodb-driver-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/git/repository/myrepository/WebApplication/Library/reports/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/user/git/repository/myrepository/WebApplication/Library/reports/testng-6.9.10.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

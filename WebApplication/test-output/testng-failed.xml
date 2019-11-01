@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [new tour application]">
-  <test thread-count="5" name="on edge(failed)">
-    <parameter name="Browser" value="edge"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.GRID.NewTourLogin">
+      <class name="com.PracticeSelenium.DropDown">
         <methods>
-          <include name="Login" invocation-numbers="0"/>
+          <include name="browserLounch"/>
+          <include name="selection"/>
+          <include name="close"/>
         </methods>
-      </class> <!-- com.GRID.NewTourLogin -->
+      </class> <!-- com.PracticeSelenium.DropDown -->
     </classes>
-  </test> <!-- on edge(failed) -->
-</suite> <!-- Failed suite [new tour application] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

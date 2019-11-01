@@ -20,10 +20,12 @@ public void navigate() {
 
 public void enterusername() {
 	driver.findElement(By.id("txtUsername")).sendKeys("mahesh");
+	System.out.println("entered username ");
 }
 
 public void enterpassword() {
 	driver.findElement(By.xpath("//*[@id=\"txtPassword\"]")).sendKeys("mahesh_01");
+	System.out.println("Entered password");
 }
 
 public void clicklogin() {
