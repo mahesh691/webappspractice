@@ -26,6 +26,7 @@ public void enterusername() {
 public void enterpassword() {
 	driver.findElement(By.xpath("//*[@id=\"txtPassword\"]")).sendKeys("mahesh_01");
 	System.out.println("Entered password");
+	System.out.println("*********************");
 }
 
 public void clicklogin() {
