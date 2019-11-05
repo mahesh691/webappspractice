@@ -15,9 +15,9 @@ public class LoginNewTour {
 	@Test
 	public void login() throws IOException {
 		
-		NewtoursKeywordBase keys=new NewtoursKeywordBase();
+	NewtoursKeywordBase keys=new NewtoursKeywordBase();
 	
-	FileInputStream file = new FileInputStream("E:\\JavaProgrammes\\WebApplication\\src\\com\\Action_Keywords\\OrangeHRMLogINData.xlsx");
+	FileInputStream file = new FileInputStream("C:\\Users\\user\\git\\repository\\myrepository\\WebApplication\\src\\com\\Action_Keywords\\OrangeHRMLogINData.xlsx");
 	XSSFWorkbook wb=new XSSFWorkbook(file);
 	XSSFSheet sh= wb.getSheet("Sheet2");
 	Row r=null;

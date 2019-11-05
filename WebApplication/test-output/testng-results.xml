@@ -2,20 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41" started-at="2019-10-28T09:02:06Z" finished-at="2019-10-28T09:02:06Z">
+  <suite name="Default suite" duration-ms="10708" started-at="2019-11-01T08:14:14Z" finished-at="2019-11-01T08:14:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41" started-at="2019-10-28T09:02:06Z" finished-at="2019-10-28T09:02:06Z">
-      <class name="com.PracticeSelenium.HtmlReport">
-        <test-method status="PASS" signature="extentReports()[pri:0, instance:com.PracticeSelenium.HtmlReport@42e26948]" name="extentReports" is-config="true" duration-ms="177" started-at="2019-10-28T09:02:06Z" finished-at="2019-10-28T09:02:06Z">
+    <test name="Default test" duration-ms="10708" started-at="2019-11-01T08:14:14Z" finished-at="2019-11-01T08:14:24Z">
+      <class name="com.Action_KeywordsScripts2.LoginNewTour">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.Action_KeywordsScripts2.LoginNewTour@7cd62f43]" name="login" duration-ms="10673" started-at="2019-11-01T08:14:14Z" finished-at="2019-11-01T08:14:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- extentReports -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.PracticeSelenium.HtmlReport@42e26948]" name="test1" duration-ms="21" started-at="2019-10-28T09:02:06Z" finished-at="2019-10-28T09:02:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- com.PracticeSelenium.HtmlReport -->
+        </test-method> <!-- login -->
+      </class> <!-- com.Action_KeywordsScripts2.LoginNewTour -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

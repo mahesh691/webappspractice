@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.PracticeSelenium.DropDown">
+      <class name="com.Action_KeywordsScripts2.LoginNewTour">
         <methods>
-          <include name="browserLounch"/>
-          <include name="selection"/>
-          <include name="close"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- com.PracticeSelenium.DropDown -->
+      </class> <!-- com.Action_KeywordsScripts2.LoginNewTour -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

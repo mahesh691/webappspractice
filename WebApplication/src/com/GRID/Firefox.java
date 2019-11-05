@@ -14,14 +14,14 @@ public class Firefox {
 	
 	public static void main(String[] args) throws MalformedURLException {
 		DesiredCapabilities cap=new DesiredCapabilities();
-cap.setBrowserName("firefox");
-cap.setPlatform(Platform.WINDOWS);
+		cap.setBrowserName("firefox");
+		cap.setPlatform(Platform.WINDOWS);
 
-String huburl="http://192.168.1.11:4444/wd/hub";
+		String huburl="http://192.168.1.11:4444/wd/hub";
 
 
-RemoteWebDriver driver= new RemoteWebDriver(new URL(huburl),cap);
-	driver.get("https://www.facebook.com");
+		RemoteWebDriver driver= new RemoteWebDriver(new URL(huburl),cap);
+		driver.get("https://www.facebook.com");
 	
 	}
 
